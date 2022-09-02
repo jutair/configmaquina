@@ -1,1 +1,1 @@
-sudo apt install curl | curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash | sudo apt install speedtest
+wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | chmod +x speedtest-cli | ./speedtest-cli | python speedtest-cli
